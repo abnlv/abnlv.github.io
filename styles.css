@@ -12,14 +12,14 @@ a{
     color: black;
 }
 
-#ssocial-link{
+#social-link{
     color: black;
     align-self: right;
     text-align: right;
     float: right;
 }
 
-#ssocial-link:hover{
+#social-link:hover{
     color: white;
     background-color: black;
 }
