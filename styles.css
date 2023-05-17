@@ -47,14 +47,16 @@ a{
     color: black;
     width: 100vw;
     min-width: 100vw;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #banner-name{
     font-size: 5rem;
     font-weight: bold;
     color: black;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 4rem;
     width: 100vw;
     min-width: 100vw;
@@ -63,7 +65,8 @@ a{
 #banner-slogan{
     font-size: 3rem;
     color: black;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 2rem;
     padding-top: 0rem;
     width: 100vw;
