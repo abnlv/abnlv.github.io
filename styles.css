@@ -100,12 +100,6 @@ li{
     height: 8rem;
   }
 
-#main-img {
-    height: 100%;
-    width: 500px;
-    object-fit: cover;
-    object-position: center;
-    margin: 0 auto; 
-    padding: 0;
-    display: block;
-}
+ .carousel-inner{
+    height: 500px;
+ }
