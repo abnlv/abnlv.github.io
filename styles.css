@@ -32,6 +32,8 @@ a{
     width: 100vw;
     text-align: center;
     min-width: 100vw;
+    align-items: center;
+    justify-content: center;
 }
 
 #main-nav{
