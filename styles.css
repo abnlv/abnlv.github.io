@@ -84,3 +84,8 @@ li{
     padding: 1rem;
     color: black;
 }
+
+.vertical-line{ 
+    border-left: 5px black;
+    height: 8rem;
+  }
