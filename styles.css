@@ -101,8 +101,7 @@ li{
   }
 
   #main-img{
-    height: 640px;
-    width:640px;
+    height: 100%;
   }
 
  #main-carousel{
