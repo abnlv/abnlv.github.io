@@ -100,7 +100,7 @@ li{
     height: 8rem;
   }
 
-img {
+#main-img {
     height: 100%;
     width: 500px;
     object-fit: cover;
