@@ -1,11 +1,10 @@
 html, body{
-    font-family: 'Rubik Pixels', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100vw;
     height: 100vh;
 }
 
 a{
-    font-family: 'Rubik Pixels', cursive;
     color: black;
 }
 
