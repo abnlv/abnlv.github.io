@@ -21,6 +21,10 @@ a{
 
 #social-link:hover{
     border: 1px solid black;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 1rem;
+    transition: color .15s ease-in-out,s background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 .nav-link:hover{
