@@ -99,3 +99,7 @@ li{
     border-left: 5px black;
     height: 8rem;
   }
+
+  .item img {
+    height: 100%;
+  }
