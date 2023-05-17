@@ -12,6 +12,11 @@ a{
     color: black;
 }
 
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
 .container{
     width: 100vw;
     text-align: center;
@@ -52,18 +57,4 @@ li{
     display: inline;
     padding: 1rem;
     color: black;
-}
-
-.left-nav{
-    float: left;
-    padding: 1rem;
-    color: black;
-    text-align: left;
-}
-
-.right-nav{
-    float: right;
-    padding: 1rem;
-    color: black;
-    text-align: right;
 }
