@@ -43,6 +43,7 @@ a{
     color: black;
     margin: 1rem;
     padding: 2rem;
+    padding-top: 0rem;
     width: 100vw;
     min-width: 100vw;
 }
