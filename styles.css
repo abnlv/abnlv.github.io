@@ -5,3 +5,9 @@ html, body{
 a{
     font-family: 'Rubik Pixels', cursive;
 }
+
+#main-nav{
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
