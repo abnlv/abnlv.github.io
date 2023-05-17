@@ -32,3 +32,9 @@ a{
     font-size: 1.5rem;
     color: black;
 }
+
+li{
+    display: inline;
+    padding: 1rem;
+    color: black;
+}
