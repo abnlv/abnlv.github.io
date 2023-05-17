@@ -20,6 +20,8 @@ a{
     text-align: right;
     float: right;
     padding: 1rem;
+    border-radius: 10%;
+    border: 1px solid white;
 }
 
 #social-link:hover{
