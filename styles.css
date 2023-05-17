@@ -12,6 +12,11 @@ a{
     color: black;
 }
 
+#social-link{
+    color: black;
+    align-self: right;
+    float: right;
+}
 .nav-link:hover{
     color: white;
     background-color: black;
