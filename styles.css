@@ -8,6 +8,10 @@ a{
     color: black;
 }
 
+.nav-link{
+    color: black;
+}
+
 .container{
     width: 100vw;
     text-align: center;
