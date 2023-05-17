@@ -17,13 +17,13 @@ a{
     align-self: right;
     text-align: right;
     float: right;
+    padding: 1rem;
 }
 
 #social-link:hover{
     border: 1px solid black;
     padding: 1rem;
-    border-radius: 50%;
-    margin: 1rem;
+    border-radius: 10%;
     transition: color .15s ease-in-out,s background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
