@@ -8,6 +8,10 @@ a{
     font-family: 'Rubik Pixels', cursive;
 }
 
+.container{
+    width: 100vw;
+}
+
 #main-nav{
     align-items: center;
     justify-content: center;
