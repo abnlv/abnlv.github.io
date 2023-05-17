@@ -23,14 +23,18 @@ a{
 }
 
 #banner-name{
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: bold;
     color: black;
+    margin: 1rem;
+    padding 4rem;
 }
 
 #banner-slogan{
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: black;
+    margin: 1rem;
+    padding: 2rem;
 }
 
 li{
