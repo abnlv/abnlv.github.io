@@ -12,7 +12,7 @@ a{
     color: black;
 }
 
-#social-links{
+.nav-link social-link{
     color: black;
     align-self: right;
     text-align: right;
