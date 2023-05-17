@@ -12,12 +12,18 @@ a{
     color: black;
 }
 
-.nav-link social-link{
+#ssocial-link{
     color: black;
     align-self: right;
     text-align: right;
     float: right;
 }
+
+#ssocial-link:hover{
+    color: white;
+    background-color: black;
+}
+
 .nav-link:hover{
     color: white;
     background-color: black;
