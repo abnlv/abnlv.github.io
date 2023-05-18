@@ -109,3 +109,9 @@ li{
     align-items: center;
     justify-content: center;
  }
+
+ .carousel-inner{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+ }
