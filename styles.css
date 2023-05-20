@@ -15,6 +15,8 @@ a{
     color: black;
 }
 
+
+
 #social-link{
     color: black;
     align-self: right;
@@ -141,10 +143,7 @@ li{
     font-size: 2rem;
  }
 
- div:active{
-    color: black;
- }
-
- .nav-link :active{
-    color: black;
+ .nav-link:active{
+    background-color: black;
+    color: white;
  }
