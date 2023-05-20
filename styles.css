@@ -144,3 +144,7 @@ li{
  div:active{
     color: black;
  }
+
+ .nav-link :active{
+    color: black;
+ }
