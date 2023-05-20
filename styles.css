@@ -77,7 +77,7 @@ a:visited{
 #banner-name{
     font-size: 5rem;
     font-weight: bold;
-    color: black;
+    color: gold;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-top: 4rem;
@@ -162,4 +162,19 @@ li{
  .nav-link:active{
     background-color: black;
     color: white;
+ }
+
+ #apropos-container{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+ #apropos-english-container{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-style: italic;
  }
