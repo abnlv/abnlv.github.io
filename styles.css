@@ -123,17 +123,6 @@ li{
     max-height: 50%;
   }
 
- /* #main-carousel{
-    align-items: center;
-    justify-content: center;
- }
-
- .carousel-inner{
-    align-content: center;
-    justify-content: center;
-    display: flex;
- } */
-
  #publications-scrollspy{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -169,6 +158,7 @@ li{
     padding-right: 6rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 5rem;
  }
 
  #apropos-english-container{
@@ -177,6 +167,9 @@ li{
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-style: italic;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
  }
 
  header{
@@ -192,4 +185,17 @@ li{
     left: 0;
     right: 0;
     margin-bottom: 1rem;
+ }
+
+ .subpage-banner{
+    color: gold;
+    padding-right: 5rem;
+ }
+
+ .subpage-banner:hover{
+    background-color: white;
+ }
+
+ .all-nav{
+    padding-top: 1rem;
  }
