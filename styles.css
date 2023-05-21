@@ -178,3 +178,18 @@ li{
     padding-bottom: 2rem;
     font-style: italic;
  }
+
+ header{
+    height: 10%;
+    position: fixed;
+ }
+
+ footer{
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-bottom: 1rem;
+ }
