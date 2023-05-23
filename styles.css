@@ -154,22 +154,21 @@ li{
  }
 
  #apropos-container{
-    padding-left: 6rem;
+    padding-left: 40rem;
     padding-right: 6rem;
-    padding-top: 2rem;
+    padding-top: 8rem;
     padding-bottom: 2rem;
-    margin-top: 5rem;
+    position: relative;
+    z-index: -1;
  }
 
  #apropos-english-container{
     padding-left: 6rem;
-    padding-right: 6rem;
+    padding-right: 40rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-style: italic;
-    margin-top: 8rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    position: relative;
  }
 
  header{
@@ -199,3 +198,26 @@ li{
  .all-nav{
     padding-top: 1rem;
  }
+
+ .masonry-container {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+      
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    padding-top: 6.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  
+  .masonry-item {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .masonry-item img {
+    display:block;
+    width: 100%;
+  }
