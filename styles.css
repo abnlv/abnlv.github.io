@@ -66,12 +66,45 @@ a:visited{
     display: flex;
 }
 
+.main-container{
+    width: 100vw;
+    text-align: center;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    padding-top: 1rem;
+    overflow: hidden;
+    position: static;
+}
+
+.publications-container{
+    width: 100vw;
+    text-align: center;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+
+}
+
 #main-nav{
     align-items: center;
     justify-content: center;
     color: black;
     width: 100vw;
     min-width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-main{
+    margin-bottom: 1rem;
 }
 
 #banner-name{
@@ -156,10 +189,11 @@ li{
  #apropos-container{
     padding-left: 40rem;
     padding-right: 6rem;
-    padding-top: 8rem;
+    padding-top: 8.5rem;
     padding-bottom: 2rem;
     position: relative;
     z-index: -1;
+    overflow-x: hidden;
  }
 
  #apropos-english-container{
@@ -197,17 +231,19 @@ li{
 
  .all-nav{
     padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: white;
+    opacity: 90%;
  }
 
  .masonry-container {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-      
     -webkit-column-gap: 15px;
     -moz-column-gap: 15px;
     column-gap: 15px;
-    padding-top: 6.5rem;
+    padding-top: 9rem;
     padding-left: 6rem;
     padding-right: 6rem;
   }
