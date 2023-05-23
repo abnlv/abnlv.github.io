@@ -81,16 +81,11 @@ a:visited{
 }
 
 .publications-container{
-    width: 100vw;
-    text-align: center;
-    min-width: 100vw;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    margin: 0 auto;
     height: 100%;
-    display: flex;
-
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    display: grid;
 }
 
 #main-nav{
