@@ -189,6 +189,7 @@ li{
     position: relative;
     z-index: -1;
     overflow-x: hidden;
+    display: flex;
  }
 
  #apropos-english-container{
@@ -198,6 +199,7 @@ li{
     padding-bottom: 2rem;
     font-style: italic;
     position: relative;
+    display: flex;
  }
 
  header{
