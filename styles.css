@@ -12,7 +12,7 @@ html, body{
     font-family: Source Sans Pro, sans-serif;
 }
 
-.navlink:hover .letter1{
+.nav-link:hover .letter1{
     color: gold;
     font-family: Source Sans Pro, sans-serif;
 }
@@ -22,7 +22,7 @@ html, body{
     font-family: Source Sans Pro, sans-serif;
 }
 
-.navlink:hover .letter2{
+.nav-link:hover .letter2{
     color: navajowhite;
     font-family: Source Sans Pro, sans-serif;
 }
@@ -32,7 +32,7 @@ html, body{
     font-family: Source Sans Pro, sans-serif;
 }
 
-.navlink:hover .letter3{
+.nav-link:hover .letter3{
     color: magenta;
     font-family: Source Sans Pro, sans-serif;
 }
@@ -42,7 +42,7 @@ html, body{
     font-family: Source Sans Pro, sans-serif;
 }
 
-.navlink:hover .letter4{
+.nav-link:hover .letter4{
     color: turquoise;
     font-family: Source Sans Pro, sans-serif;
 }
@@ -52,7 +52,7 @@ html, body{
     font-family: Source Sans Pro, sans-serif;
 }
 
-.navlink:hover .letter5{
+.nav-link:hover .letter5{
     color: orange;
     font-family: Source Sans Pro, sans-serif;
 }
