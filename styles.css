@@ -232,9 +232,9 @@ li{
  }
 
  #apropos-container{
-    padding-left: 40rem;
+    padding-left: 6rem;
     padding-right: 6rem;
-    padding-top: 8.5rem;
+    padding-top: 12rem;
     padding-bottom: 2rem;
     position: relative;
     z-index: -1;
@@ -244,7 +244,7 @@ li{
 
  #apropos-english-container{
     padding-left: 6rem;
-    padding-right: 40rem;
+    padding-right: 6rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-style: italic;
