@@ -4,8 +4,24 @@ html, body{
     height: 100vh;
     margin: 0 auto;
     padding: 0;
-    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+.column {
+    width: 100%;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
 
 .letter1{
     color: cornflowerblue;
@@ -125,9 +141,9 @@ a:visited{
     margin: 0 auto;
     padding: 0;
     display: flex;
-    padding-top: 1rem;
     overflow: hidden;
     position: static;
+    padding-bottom: 6vw;
 }
 
 .publications-container{
@@ -153,7 +169,7 @@ a:visited{
 }
 
 #banner-name{
-    font-size: 5rem;
+    font-size: 5vw;
     font-weight: bold;
     color: gold;
     margin-top: 1rem;
@@ -169,7 +185,7 @@ a:visited{
 }
 
 #banner-slogan{
-    font-size: 3rem;
+    font-size: 3vw;
     color: black;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -181,6 +197,7 @@ a:visited{
     margin-right: 0 auto;
     padding-left: 0;
     padding-right: 0;
+    position: absolute;
 }
 
 li{
@@ -199,6 +216,7 @@ li{
     size: 50%;
     height: 600px;
     max-height: 50%;
+    max-width: 50%;
   }
 
  #publications-scrollspy{
