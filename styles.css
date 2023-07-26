@@ -135,10 +135,17 @@ a:visited{
 }
 
 #social-link:hover{
-    border: 1px solid black;
     padding: 1vw;
     border-radius: 0.375vw;
     transition: color .15s ease-in-out,s background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.social-img{
+    max-height: 2vw;
+    min-height: 1rem;
+    max-width: 2vw;
+    min-width: 1rem;
+    width: 100%;
 }
 
 .nav-link:hover{
