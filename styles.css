@@ -392,3 +392,11 @@ li{
     padding-top: 1vw;
     padding-bottom: 1vw;
   }
+
+.modal-body i{
+    padding-top: 2vw;
+}
+
+  .modal-img{
+    width: 100%;
+  }
