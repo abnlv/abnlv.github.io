@@ -122,7 +122,26 @@ a:visited{
     color: black;
 }
 
+@media (max-width: 768px) {
+    .nav-link {
+      font-size: 80%;
+    }
 
+    .main-container{
+        display: grid;
+    }
+
+    .apropos-container{
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .apropos-english-container{
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+  }
+  
 
 #social-link{
     color: black;
@@ -130,14 +149,8 @@ a:visited{
     text-align: right;
     float: right;
     padding: 1vw;
-    border-radius: 0.375vw;
-    border: 1px solid white;
-}
-
-#social-link:hover{
-    padding: 1vw;
-    border-radius: 0.375vw;
-    transition: color .15s ease-in-out,s background-color .15s ease-in-out,border-color .15s ease-in-out;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .social-img{
@@ -275,7 +288,6 @@ li{
     overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1vw;
  }
 
  #apropos-english-container{
@@ -288,7 +300,6 @@ li{
     z-index: -1;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1vw;
  }
 
  header{
