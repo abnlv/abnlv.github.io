@@ -13,16 +13,6 @@ html, body{
     width: 100%;
   }
 
-  @media (min-width: 600px) {
-    main {
-      flex-wrap: nowrap;
-    }
-
-    div {
-      flex-basis: 33%;
-    }
-  }
-
 .letter1{
     color: cornflowerblue;
     font-family: Source Sans Pro, sans-serif;
@@ -153,19 +143,33 @@ a:visited{
       font-size: 80%;
     }
 
+    .book-link{
+        font-size: 80%;
+    }
+
     .main-container{
         display: grid;
     }
 
     .apropos-container{
-        padding-top: 1vw;
+        padding-top: 40vw;
         padding-bottom: 1vw;
+        object-fit: contain;
     }
 
     .apropos-english-container{
-        padding-top: 1vw;
+        padding-top: 40vw;
         padding-bottom: 1vw;
+        object-fit: contain;
     }
+
+    main {
+        flex-wrap: nowrap;
+      }
+  
+      div {
+        flex-basis: 33%;
+      }
   }
   
 
@@ -320,11 +324,18 @@ li{
     color: white;
  }
 
+ #ap-break{
+    height: 6vw;
+ }
+
+ .all-ap-container{
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+ }
+
  #apropos-container{
-    padding-top: 9vw;
-    padding-bottom: 1vw;
-    padding-left: 6vw;
-    padding-right: 6vw;
     position: relative;
     z-index: -1;
     overflow-x: hidden;
@@ -333,10 +344,6 @@ li{
  }
 
  #apropos-english-container{
-    padding-top: 9vw;
-    padding-bottom: 1vw;
-    padding-left: 6vw;
-    padding-right: 6vw;
     font-style: italic;
     position: relative;
     z-index: -1;
