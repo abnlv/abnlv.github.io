@@ -1,6 +1,5 @@
 html, body{
     font-family: 'Source Sans Pro', sans-serif;
-    width: 100vw;
     height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -138,7 +137,8 @@ a:visited{
     color: black;
 }
 
-@media (max-width: 768px) {
+/* For mobile devices */
+@media (max-width: 768px) { 
     .nav-link {
       font-size: 80%;
     }
@@ -166,12 +166,27 @@ a:visited{
     main {
         flex-wrap: nowrap;
       }
-  
-      div {
-        flex-basis: 33%;
+      
+      .masonry-container{
+        padding-top: 8rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+      }
+
+      .ap-social-links{
+        position: static;
       }
   }
-  
+
+/* For desktop */
+@media (min-width: 768px) {
+
+    .masonry-container{
+        padding-top: 9vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+}
 
 #social-link{
     color: black;
@@ -260,8 +275,6 @@ a:visited{
     margin-bottom: 1vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
-    /* width: 100vw;
-    min-width: 100vw; */
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding-left: 0;
@@ -275,8 +288,6 @@ a:visited{
     margin-bottom: 1vw;
     padding-bottom: 2vw;
     padding-top: 0vw;
-    /* width: 100vw;
-    min-width: 100vw; */
     margin-left: 0 auto;
     margin-right: 0 auto;
     padding-left: 0;
@@ -391,10 +402,6 @@ li{
     -webkit-column-gap: 15px;
     -moz-column-gap: 15px;
     column-gap: 15px;
-    padding-top: 9rem;
-    padding-left: 6vw;
-    padding-right: 6vw;
-    width: 100%;
     flex-basis: 100%;
     margin: 0 auto;
   }
