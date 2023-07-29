@@ -171,6 +171,9 @@ a:visited{
         padding-top: 8rem;
         padding-right: 1rem;
         padding-left: 1rem;
+        column-count: 1;
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
       }
 
       .ap-social-links{
@@ -185,6 +188,9 @@ a:visited{
         padding-top: 9vw;
         padding-left: 6vw;
         padding-right: 6vw;
+        column-count: 3;
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
     }
 }
 
@@ -396,9 +402,6 @@ li{
  }
 
  .masonry-container {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3;
     -webkit-column-gap: 15px;
     -moz-column-gap: 15px;
     column-gap: 15px;
