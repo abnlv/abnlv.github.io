@@ -148,7 +148,8 @@ a:visited{
     }
 
     .main-container{
-        display: grid;
+        text-align: center;
+        text-align: -webkit-center;
     }
 
     .apropos-container{
@@ -179,10 +180,20 @@ a:visited{
       .ap-social-links{
         position: static;
       }
+
+      #publications-container{
+        display: grid;
+        text-align: center;
+      }
   }
 
 /* For desktop */
 @media (min-width: 768px) {
+
+    .main-container{
+        display: flex;
+        text-align: center;
+    }
 
     .masonry-container{
         padding-top: 9vw;
@@ -191,6 +202,11 @@ a:visited{
         column-count: 3;
         -webkit-column-count: 3;
         -moz-column-count: 3;
+    }
+
+    #publications-container{
+        display: flex;
+        text-align: center;
     }
 }
 
@@ -246,13 +262,23 @@ a:visited{
 
 .main-container{
     width: 100vw;
-    text-align: center;
     min-width: 100vw;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     padding: 0;
-    display: flex;
+    overflow: hidden;
+    position: static;
+    padding-bottom: 6vw;
+}
+
+#publications-container{
+    width: 100vw;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
     overflow: hidden;
     position: static;
     padding-bottom: 6vw;
@@ -298,7 +324,6 @@ a:visited{
     margin-right: 0 auto;
     padding-left: 0;
     padding-right: 0;
-    position: absolute;
 }
 
 li{
@@ -446,10 +471,8 @@ li{
   }
 
   .publication-title{
-    font-size: 1.5vw;
     font-weight: bold;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding: 2vw;
   }
 
 .modal-body i{
