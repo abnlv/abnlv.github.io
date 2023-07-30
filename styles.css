@@ -179,12 +179,20 @@ a:visited{
 
       .ap-social-links{
         position: static;
+        background-color: white;
       }
 
       #publications-container{
         display: grid;
         text-align: center;
       }
+
+      #ap-footer{
+        background-color: white;
+        margin: 0 auto;
+        opacity: 90%;
+        padding-bottom: 1rem;
+    }
   }
 
 /* For desktop */
@@ -207,6 +215,13 @@ a:visited{
     #publications-container{
         display: flex;
         text-align: center;
+    }
+
+    #ap-footer{
+        background-color: white;
+        margin: 0 auto;
+        opacity: 90%;
+        margin-bottom: 1rem;
     }
 }
 
@@ -295,8 +310,15 @@ a:visited{
 }
 
 .footer-main{
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     display: flex;
+}
+
+#main-footer{
+    background-color: white;
+    margin: 0 auto;
+    opacity: 90%;
+    margin-bottom: 1rem;
 }
 
 #banner-name{
