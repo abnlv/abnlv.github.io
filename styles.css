@@ -208,6 +208,18 @@ a:visited{
     .subpage-banner{
         width: 100vw;
     }
+
+    #publications-container{
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    #publication1{
+        padding-top: 1rem;
+        padding-bottom: 5rem;
+    }
   }
 
 /* For desktop */
@@ -246,6 +258,10 @@ a:visited{
 
     .subpage-banner{
         padding-right: 5vw;
+    }
+
+    #publication1{
+        padding-right: 5rem;
     }
 }
 
@@ -392,22 +408,6 @@ li{
     max-width: 50%;
     overflow: hidden;
   }
-
- #banner-name-windows{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    font-size: 4vw;
- }
-
- #banner-slogan-windows{
-    padding-left: 3vw;
-    padding-right: 3vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    font-size: 2vw;
- }
 
  .nav-link:active{
     background-color: black;
