@@ -333,6 +333,7 @@ a:visited{
     margin-right: 0 auto;
     padding-left: 0;
     padding-right: 0;
+    text-shadow: 1px 1px 2px black;
 }
 
 #banner-slogan{
@@ -346,6 +347,7 @@ a:visited{
     margin-right: 0 auto;
     padding-left: 0;
     padding-right: 0;
+    text-shadow: 1px 1px 2px blue;
 }
 
 li{
@@ -433,11 +435,13 @@ li{
  .subpage-banner{
     color: gold;
     padding-right: 5vw;
+    text-shadow: 1px 1px 2px black;
  }
 
  .subpage-banner:hover{
     background-color: white;
     color: navy;
+    text-shadow: 1px 1px 2px black;
  }
 
  .all-nav{
@@ -510,6 +514,7 @@ li{
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
+    text-shadow: 1px 1px 2px navy;
   }
 
 .subpage-banner:hover {
