@@ -17,21 +17,71 @@
 }
   
 #tb1{  
-    animation: 1s ease-out 0s 1 raise;
-	-webkit-animation: 1s ease-out 0s 1 raise;
-}
-
-#tb2{  
-    animation: 1.5s ease-out 0s 1.5 raise;
-	-webkit-animation: 1.5s ease-out 0.5s 1.5 raise;
+    animation: 1s ease-in-out 0s 1 raise;
+	-webkit-animation: 1s ease-in-out 0s 1 raise;
 }
 
 #tb3{  
-    animation: 1s ease-out 0s 1 raise;
-	-webkit-animation: 1s ease-out 0s 1 raise;
+    animation: 1.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 1.5s ease-in-out 0s 1 raise;
 }
 
 #tb4{  
-	animation: 1s ease-out 0s 1 raise;
-	-webkit-animation: 1s ease-out 0s 1 raise;
+	animation: 2s ease-in-out 0s 1 raise;
+	-webkit-animation: 2s ease-in-out 0s 1 raise;
+}
+
+#tb5{  
+	animation: 2.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 2.5s ease-in-out 0s 1 raise;
+}
+
+#tb6{  
+	animation: 3s ease-in-out 0s 1 raise;
+	-webkit-animation: 3s ease-in-out 0s 1 raise;
+}
+
+#tb7{  
+	animation: 3.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 3.5s ease-in-out 0s 1 raise;
+}
+
+#tb8{  
+	animation: 4s ease-in-out 0s 1 raise;
+	-webkit-animation: 4s ease-in-out 0s 1 raise;
+}
+
+#tb9{  
+	animation: 4.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 4.5s ease-in-out 0s 1 raise;
+}
+
+#tb10{  
+	animation: 5s ease-in-out 0s 1 raise;
+	-webkit-animation: 5s ease-in-out 0s 1 raise;
+}
+
+#tb11{  
+	animation: 5.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 5.5s ease-in-out 0s 1 raise;
+}
+
+#tb12{  
+	animation: 6s ease-in-out 0s 1 raise;
+	-webkit-animation: 6s ease-in-out 0s 1 raise;
+}
+
+#tb13{  
+	animation: 6.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 6.5s ease-in-out 0s 1 raise;
+}
+
+#tb14{  
+	animation: 7s ease-in-out 0s 1 raise;
+	-webkit-animation: 7s ease-in-out 0s 1 raise;
+}
+
+#tb15{  
+	animation: 7.5s ease-in-out 0s 1 raise;
+	-webkit-animation: 7.5s ease-in-out 0s 1 raise;
 }
