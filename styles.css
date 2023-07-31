@@ -141,6 +141,7 @@ a:visited{
 @media (max-width: 768px) { 
     .nav-link {
       font-size: 80%;
+      -webkit-tap-highlight-color: black;
     }
 
     .book-link{
@@ -463,11 +464,24 @@ li{
   .masonry-item {
     display: inline-block;
     width: 100%;
+    transition: all .3s ease-in-out;
+    z-index: -5;
   }
   
   .masonry-item img {
     display:block;
     width: 100%;
+  }
+
+  .masonry-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+    z-index: -5;
+  }
+
+  .btn-close{
+    text-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
   }
 
   .modal-close-button{
