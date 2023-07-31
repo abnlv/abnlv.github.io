@@ -16,10 +16,22 @@
 	}
 }
   
-  header {  
-    /* This section calls the slideInFromLeft animation we defined above */
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-    
-    background: #333;
-    padding: 30px;
-  }
+#tb1{  
+    animation: 1s ease-out 0s 1 raise;
+	-webkit-animation: 1s ease-out 0s 1 raise;
+}
+
+#tb2{  
+    animation: 1.5s ease-out 0s 1.5 raise;
+	-webkit-animation: 1.5s ease-out 0.5s 1.5 raise;
+}
+
+#tb3{  
+    animation: 1s ease-out 0s 1 raise;
+	-webkit-animation: 1s ease-out 0s 1 raise;
+}
+
+#tb4{  
+	animation: 1s ease-out 0s 1 raise;
+	-webkit-animation: 1s ease-out 0s 1 raise;
+}

@@ -204,6 +204,10 @@ a:visited{
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
+    .subpage-banner{
+        width: 100vw;
+    }
   }
 
 /* For desktop */
@@ -238,6 +242,10 @@ a:visited{
     #banner-name{
         padding-left: 3vw;
         padding-right: 3vw;
+    }
+
+    .subpage-banner{
+        padding-right: 5vw;
     }
 }
 
@@ -323,6 +331,8 @@ a:visited{
     min-width: 100vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
+    background-color: white;
+    opacity: 90%;
 }
 
 .footer-main{
@@ -448,7 +458,6 @@ li{
 
  .subpage-banner{
     color: gold;
-    padding-right: 5vw;
     text-shadow: 1px 1px 2px black;
  }
 
