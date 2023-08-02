@@ -28,14 +28,14 @@
 	}
 }
 
-#banner-name{
+/* #banner-name{
 	animation-name: transform;
 	-webkit-animation-name: transform;
 	animation-delay: 0s;
 	-webkit-animation-delay: 0s;
 	animation-duration: 2s;
 	-webkit-animation-duration: 2s;
-}
+} */
   
 #tb1{  
     animation-name: raise;
