@@ -1,0 +1,109 @@
+.letter1{
+    color: cornflowerblue;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav-link:hover .letter1{
+    color: gold;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.book-link:hover .letter1{
+    color: gold;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.modal-close-button:hover .letter1{
+    color: gold;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.letter2{
+    color: red;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav-link:hover .letter2{
+    color: navajowhite;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.book-link:hover .letter2{
+    color: navajowhite;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.modal-close-button:hover .letter2{
+    color: navajowhite;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.letter3{
+    color: turquoise;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav-link:hover .letter3{
+    color: magenta;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.book-link:hover .letter3{
+    color: magenta;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.modal-close-button:hover .letter3{
+    color: magenta;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.letter4{
+    color: green;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav-link:hover .letter4{
+    color: turquoise;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.book-link:hover .letter4{
+    color: turquoise;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+
+.modal-close-button:hover .letter4{
+    color: turquoise;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.letter5{
+    color: purple;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.nav-link:hover .letter5{
+    color: orange;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.book-link:hover .letter5{
+    color: orange;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.modal-close-button:hover .letter5{
+    color: orange;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.banner-letter{
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+.banner-letter:hover{
+    transform: translateY(-10px);
+}
