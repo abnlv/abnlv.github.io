@@ -207,19 +207,6 @@ a:visited{
     margin: 1vw;
 }
 
-.book-link:hover{
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-top: 0.5vw;
-    padding-bottom: 0.5vw;
-    border-radius: 0.375rem;
-    background-color: black;
-    color: white;
-}
-
 .container{
     width: 100vw;
     text-align: center;
@@ -539,4 +526,17 @@ li{
     size: 50%;
     max-width: 50%;
     overflow: hidden;
+}
+
+.book-link:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-radius: 0.375rem;
+    background-color: black;
+    color: white;
 }
