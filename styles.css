@@ -127,6 +127,11 @@ a:visited{
         margin-top: 8rem;
     }
     
+    #ap-img{
+        width: 40vw;
+        align-self: center;
+        padding-bottom: 2rem;
+     }
   }
 
 /* For desktop */
@@ -176,6 +181,15 @@ a:visited{
     .all-ap-container{
         margin-top: 10rem;
     }
+
+    #ap-img{
+        width: 20vw;
+        float: left;
+        shape-outside: circle(50%);
+        border-radius: 50%;
+        align-self: left;
+        padding: 2vw;
+     }
 }
 
 #social-link{
@@ -219,15 +233,13 @@ a:visited{
 }
 
 .main-container{
-    width: 100vw;
-    min-width: 100vw;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
     position: static;
-    padding-bottom: 6vw;
+    padding-bottom: 4vw;
 }
 
 #publications-container{
@@ -315,7 +327,7 @@ li{
  }
 
  #ap-break{
-    height: 6vw;
+    height: 5vw;
  }
 
  .all-ap-container{
@@ -330,6 +342,9 @@ li{
     overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
  }
 
  #apropos-english-container{
@@ -372,22 +387,6 @@ li{
     background-color: white;
     opacity: 90%;
     z-index: 1;
- }
-
- #ap-img-container{
-    max-width: 40vw;
-    max-height: 40vw;
-    overflow: hidden;
-    display: block;
-    height: 20vw;
-    width: 20vw;
-    border-radius: 50%;
-    float: center;
- }
-
- #ap-img{
-    width: 20vw;
-    float: center;
  }
 
  .masonry-container {
