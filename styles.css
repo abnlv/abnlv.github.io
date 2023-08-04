@@ -212,7 +212,7 @@ a:visited{
         height: 100vh;
         display: grid;
         text-align: center;
-        padding-top: 8vw;
+        padding-top: 8rem;
     }
 
     #publication1{
@@ -337,9 +337,7 @@ a:visited{
     min-width: fit-content;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
-    position: static;
-    padding-bottom: 5vw;
+    padding-bottom: 5rem;
 }
 
 #main-nav{
@@ -423,7 +421,7 @@ li{
  }
 
  .all-ap-container{
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-bottom: 6rem;
     margin-left: 6rem;
     margin-right: 6rem;
