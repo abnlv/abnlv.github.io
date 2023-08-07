@@ -115,8 +115,12 @@ a:visited{
     }
 
     #publication1{
-        padding-top: 1rem;
+        padding-top: 15rem;
         padding-bottom: 0rem;
+    }
+
+    #publication2{
+        padding-bottom: 5rem;
     }
 
     #index-container{
@@ -172,10 +176,6 @@ a:visited{
 
     .subpage-banner{
         padding-right: 5vw;
-    }
-
-    #publication1{
-        padding-right: 5rem;
     }
 
     .all-ap-container{
@@ -450,17 +450,26 @@ li{
   }
 
   .publication-title{
-    font-weight: bold;
     padding: 2vw;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;
   }
 
 .modal-body i{
     padding-top: 2vw;
 }
 
-  .modal-img{
+.modal-img{
     width: 100%;
-  }
+}
+
+
+.modal-title{
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+    font-style: italic;
+}
 
 #banner-name:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
