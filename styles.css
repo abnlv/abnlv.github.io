@@ -112,15 +112,21 @@ a:visited{
         display: grid;
         text-align: center;
         padding-top: 8rem;
+        min-width: 100vw;
     }
 
     #publication1{
-        padding-top: 15rem;
+        padding-top: 25rem;
         padding-bottom: 0rem;
     }
 
     #publication2{
+        padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+
+    .publication-title{
+        margin-top: 2rem;
     }
 
     #index-container{
@@ -160,6 +166,17 @@ a:visited{
         display: flex;
         text-align: center;
         margin: 0 auto;
+    }
+
+    #publication1{
+        padding-top: 15rem;
+        padding-bottom: 0rem;
+        padding-right: 10rem;
+    }
+    
+    #publication2{
+        padding-top: 15rem;
+        padding-bottom: 0rem;
     }
 
     #ap-footer{
@@ -243,7 +260,6 @@ a:visited{
 }
 
 #publications-container{
-    width: fit-content;
     min-width: fit-content;
     align-items: center;
     justify-content: center;
